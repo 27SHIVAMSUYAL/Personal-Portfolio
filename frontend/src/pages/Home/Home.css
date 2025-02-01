@@ -1,0 +1,57 @@
+.home-container{
+    background-color: #faedcd;
+    width: 100vw;
+    height: 35vh;
+   overflow: hidden;
+}
+
+.typewriter-text{
+   color: black;
+   margin-left: 2vw;
+   font-size: 5vh; /* Change text size */
+   font-family: "Playfair Display", serif;
+}
+
+.home-buttons .btn-resume{
+    margin-left: 1vw;
+    background-color: rgb(215, 159, 57);
+    
+    font-weight: bolder;
+    font-family: "Playfair Display", serif;
+    color: #faedcd;
+  
+}
+.home-buttons .btn-resume:hover{
+   
+    transform: scale(1.1);
+}
+
+.home-buttons .btn-contact{
+    margin-left: 1vw;
+    background-color: rgb(29, 97, 25);
+    font-weight: bolder;
+    font-family: "Playfair Display", serif;
+    color: #faedcd;
+}
+.home-buttons .btn-contact:hover{
+    
+    transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+    .home-container{
+        height: 30vh;
+        margin-left: 0vw;
+        margin-top: 5vh;
+    }
+    .home-content h2{
+        font-size: large;
+
+    }
+    .home-buttons{
+        margin-top: 6vh;
+    }
+
+
+    
+}

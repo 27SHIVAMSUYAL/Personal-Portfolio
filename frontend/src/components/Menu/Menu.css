@@ -1,0 +1,47 @@
+
+
+  .menu-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+   
+    background-color:354f52  ;
+    height: 75vh;
+  }
+
+  .menu-item{
+    display:flex;
+  width: 100%;
+  justify-content: center;
+  flex-grow: 1; /* Each child will grow to fill available space equally */
+  border: 1px solid black;
+  align-items: center;
+  font-family: "Playfair Display", serif;
+  color: #faedcd;
+  
+  
+  
+    
+
+  }
+  /* Hover effect */
+.menu-item:hover {
+  background-color: rgb(49, 47, 47);
+  color: white;
+  border-color: white;
+  transform: scale(1.1); /* Slight zoom-in effect */
+  cursor: pointer;
+}
+  .menu-icon{
+    margin-right: 10%;
+  }
+ 
+  .just-icons{
+    height: 75vh;
+  }
+  .icons-with-names{
+    height: 75vh;
+    position: fixed;
+  }

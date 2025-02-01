@@ -1,0 +1,80 @@
+.sidebar-section {
+    display: flex;
+    height: 200vh;
+   
+    
+}
+
+.profile-pic {
+    width: 100%;
+    height: 100%;
+    margin: 2% 2% 2% 2%;
+    cursor: pointer;
+
+
+}
+
+.sidebar {
+    height: 100%;
+    width: 15vw;
+    background-color: 354f52;
+    position: fixed;
+ 
+
+}
+
+.sidebar-toggle-icons {
+    display: flex;
+    justify-content: right;
+    height: 25vh;
+    
+
+
+}
+.menu-section{
+    height: 75vh;
+    
+}
+
+.sidebar-toggle-icons p svg {
+    color: #faedcd;
+    font-size: 2rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.email-form-div{
+    height: 30vh;
+}
+
+.home-section {
+    background-color: #faedcd;
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    margin-left: 15vw;
+  
+}
+.Logos-div{
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    margin-top: 10vh;
+}
+@media (max-width: 600px) {
+    .sidebar {
+        display: none;
+    }
+    .home-section {
+        margin-left: 0vw;
+        
+    }
+ .sidebar-section{
+    margin-left: 0vw;
+ }
+
+    
+}

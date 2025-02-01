@@ -1,0 +1,76 @@
+.about-container {
+  display: flex;
+
+  border-color: black;
+
+  padding: 2vh;
+  box-shadow: rgba(18, 17, 17, 0.15) 2px 2px 20px;
+  height: 40vh;
+  width: 85vw;
+
+  overflow: hidden;
+  background-color: #faedcd;
+  margin-left: 1vw;
+  margin-bottom: 2vh;
+
+
+}
+
+.about-text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  /* Take the full width of the screen */
+  box-sizing: border-box;
+  /* Ensures padding and borders are included in the element's total width */
+  justify-content: start;
+  font-family: "Playfair Display", serif;
+  margin-left: 0.5vw;
+  color: black
+}
+
+.about-heading {
+  display: flex;
+  /* Enable flexbox */
+  justify-content: center;
+  /* Center the content horizontally */
+  align-items: flex-start;
+  /* Align the content to the top vertically */
+  height: 4vh;
+  /* Ensure the div takes up the full height of its parent */
+  font-family: "Playfair Display", serif;
+
+
+}
+
+
+
+.about-heading h2 {
+  margin: 0;
+  /* Remove default margin */
+}
+
+@media (max-width: 600px) {
+  
+  .about-container{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   
+    width: 100vh;
+    height: 80vh;
+
+  }
+
+  .about-heading h2 {
+    font-size: large;
+    /* Remove default margin */
+  }
+  .about-para p {
+    font-size: small;
+   
+    /* Remove default margin */
+  }
+  
+}
